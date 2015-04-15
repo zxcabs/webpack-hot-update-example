@@ -1,0 +1,20 @@
+{
+  "name": "webpack-hot-update-example",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --content-base static/ --hot --inline --port 9999"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "file-loader": "^0.8.1",
+    "less": "^2.5.0",
+    "less-loader": "^2.2.0",
+    "style-loader": "^0.10.2",
+    "webpack": "^1.8.4",
+    "webpack-dev-server": "^1.8.0"
+  }
+}

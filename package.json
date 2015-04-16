@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --content-base static/ --hot --inline --port 9999"
+    "dev": "webpack-dev-server --content-base static/ --hot --progress --colors --inline"
   },
   "author": "",
   "license": "MIT",

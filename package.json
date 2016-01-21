@@ -5,16 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --content-base static/ --hot --progress --colors --inline"
+    "dev": "webpack-dev-server --content-base static/ --hot --progress --colors --inline --port 9999"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "file-loader": "^0.8.1",
-    "less": "^2.5.0",
-    "less-loader": "^2.2.0",
-    "style-loader": "^0.10.2",
-    "webpack": "^1.8.4",
-    "webpack-dev-server": "^1.8.0"
+    "css-loader": "0.23.1",
+    "file-loader": "0.8.5",
+    "less": "2.5.3",
+    "less-loader": "2.2.2",
+    "style-loader": "0.13.0",
+    "webpack": "1.12.11",
+    "webpack-dev-server": "1.14.1"
   }
 }
